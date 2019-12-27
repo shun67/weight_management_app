@@ -5,10 +5,10 @@
 define('MAIL_HOST','smtp.gmail.com');
 
 // メールユーザー名・アカウント名・メールアドレスを@込でフル記述
-define('MAIL_USERNAME','techbase.ito@gmail.com');
+define('MAIL_USERNAME','*********');
 
 // メールパスワード・上で記述したメールアドレスに即したパスワード
-define('MAIL_PASSWORD','techbase');
+define('MAIL_PASSWORD','*********');
 
 // SMTPプロトコル(sslまたはtls)
 define('MAIL_ENCRPT','ssl');
@@ -17,10 +17,10 @@ define('MAIL_ENCRPT','ssl');
 define('SMTP_PORT', 465);
 
 // メールアドレス・ここではメールユーザー名と同じでOK
-define('MAIL_FROM','techbase.ito@gmail.com');
+define('MAIL_FROM','*********');
 
 // 表示名
-define('MAIL_FROM_NAME','shun');
+define('MAIL_FROM_NAME','*********');
 
 // メールタイトル
 define('MAIL_SUBJECT','会員登録ありがとうございます');
