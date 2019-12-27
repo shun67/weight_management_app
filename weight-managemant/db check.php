@@ -1,7 +1,7 @@
 <?php
-	$dsn = 'mysql:dbname=tb210005db;host=localhost';
-	$user = 'tb-210005';
-	$password = 'uKdsWMXhMN';
+	$dsn = 'mysql:dbname=*********;host=localhost';
+	$user = '*********';
+	$password = '*********';
 	$pdo = new PDO($dsn, $user, $password);
 
 $sql ='SHOW CREATE TABLE member_1';
