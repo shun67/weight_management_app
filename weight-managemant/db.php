@@ -1,9 +1,9 @@
 <?php
  
 function db_connect(){
-	$dsn = 'mysql:dbname=tb210005db;host=localhost';
-	$user = 'tb-210005';
-	$password = 'uKdsWMXhMN';
+	$dsn = 'mysql:dbname=*********;host=*********';
+	$user = '*********';
+	$password = '*********';
 	
 	try{
 		$dbh = new PDO($dsn, $user, $password);
